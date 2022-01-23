@@ -6,7 +6,7 @@
 
 html{
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 main {
@@ -16,30 +16,66 @@ main {
 
 article {
     width: 30%;
-    background-color: yellow;
     position: relative;
     margin-top: 30px;
-    height: 600px;
 }
 
 img {
     object-fit: cover;
-    height: 100%;
+    height: 600px;
     width: 100%;
 }
 
 .heartDrawing {
     font-size: 30px;
     position: absolute;
-    top: 20px;
-    left: 400px;
+    top: 0.8em;
+    right: 0;
     padding: 3px 15px;
     background-color: white;
-    float: right;
 }
 
-.clearfixHeart::before {
-    content: '';
-    display: block;
-    clear: right;
+.DiscountTags {
+    position: absolute;
+    left: 0;
+    bottom: 75px;
+    color: white;
+    font-weight: bold;
+}
+
+.DiscountTags span {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.PercentDiscountTag {
+    background-color: #eb0037;
+}
+
+.SustainabilityTag {
+    background-color: #00875a;
+}
+
+.BrandType {
+    font-size: 14px;
+}
+
+.ClothType {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.PriceTag {
+    color: #ff2327;
+    font-weight: 700;
+}
+
+.BeforeDiscountTag {
+    text-decoration: line-through;
+}
+
+section {
+    line-height: 18px;
+    margin-top: 5px;
 }
