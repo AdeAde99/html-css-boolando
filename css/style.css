@@ -26,6 +26,17 @@ img {
     width: 100%;
 }
 
+.ImageA {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+article:hover .ImageA {
+    display: none;
+}
+
 .heartDrawing {
     font-size: 30px;
     position: absolute;
@@ -33,6 +44,7 @@ img {
     right: 0;
     padding: 3px 15px;
     background-color: white;
+    z-index: 6;
 }
 
 .DiscountTags {
@@ -41,6 +53,7 @@ img {
     bottom: 75px;
     color: white;
     font-weight: bold;
+    z-index: 6;
 }
 
 .DiscountTags span {
